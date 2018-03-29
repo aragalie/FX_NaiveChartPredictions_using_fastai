@@ -20,7 +20,7 @@ Note that even though i'm using this example for FX data (using [Oanda](https://
 - Data is being pulled via Oanda's API for whatever time window you require. `Start` (e.g 2018-01-01) and `End` dates can be specified, `instrument` (e.g GBP_USD) as well as candle `freqency` (e.d M1 meaning 1 minute candles).
 - You can find 2 files in the repo to help run an initial example, in case you don't have/don't want to make a Oanda account: 
 ```sh
-`GBP_USD_M1_2018-03-01_2018-03-27.h5s` can be used in the `data/ViewPorts/valid/` folder (most recent prices)
+`GBP_USD_M1_2018-03-01_2018-03-27.h5s` can be used in the `data/ViewPorts/valid/` folder (recent prices)
 `GBP_USD_M1_2015-01-09_2018-02-28.h5s` can be used in the `data/ViewPorts/train/` folder
 ```
 - Data is then added to a pandas DataFrame and modeled accordingly to needs. In my case i add 2 trend indicators (Moving Average 50 and Bollinger Bands 20sma)
