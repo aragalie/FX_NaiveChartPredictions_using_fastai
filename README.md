@@ -64,8 +64,7 @@ data/ViewPorts/
               /valid/
                     /buy
                     /sell
-                    /hold
-              
+                    /hold            
 ```
 
 ## Run
