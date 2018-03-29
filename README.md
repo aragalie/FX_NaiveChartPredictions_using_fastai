@@ -10,9 +10,10 @@ Experiment to see if an accurate prediction of long/short positions in FX can be
 - Run the prediction model
 - Be dissapointed with the prediction accuracy and try again :)
 
-### 1. Oanda_Data_Retrieval
+## 1. Oanda_Data_Retrieval
 
-This is the initial step of data preparation, plotting and exporting as images
+This is the initial step of data preparation, plotting and exporting as images. 
+Note that even though i'm using this example for FX data, with minimal code adjustment you can use your own data sources/DataFrames
 
 #### Data retrieval and preparation
 
