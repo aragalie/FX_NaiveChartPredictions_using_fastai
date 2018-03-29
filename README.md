@@ -66,11 +66,11 @@ git clone https://github.com/aragalie/FX_NaiveChartPredictions_using_fastai.git
 4. Make sure you have the same `data` folder structure, or ensure to adjust the code in the Jupyter NBs to reflect your own structure:
 ```sh
 data/ViewPorts/
-              /train/
+               train/
                     /buy
                     /sell
                     /hold
-              /valid/
+               valid/
                     /buy
                     /sell
                     /hold            
