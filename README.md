@@ -54,7 +54,7 @@ git clone https://github.com/aragalie/FX_NaiveChartPredictions_using_fastai.git
 ```
 2. Install the fastai library in the same folder: [instructions here](https://github.com/fastai/fastai)
 
-3. Make sure you have the same data folder structure, or ensure to adjust the code in the Jupyter NBs to reflect your own structure:
+3. Make sure you have the same `data` folder structure, or ensure to adjust the code in the Jupyter NBs to reflect your own structure:
 ```sh
 data/ViewPorts/
               /train/
