@@ -69,5 +69,5 @@ data/ViewPorts/
 
 ## Run
 
-Run the Jupyter Notebooks. Instructions for each sections are contained within the notebook.
+Run the Jupyter Notebooks, test and ajust.
 
