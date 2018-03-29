@@ -13,7 +13,7 @@ Experiment to see if an accurate prediction of long/short positions in FX can be
 ### 1. Oanda_Data_Retrieval
 
 This is the initial step of data preparation, plotting and exporting as images. 
-Note that even though i'm using this example for FX data, with minimal code adjustment you can use your own data sources/DataFrames
+Note that even though i'm using this example for FX data (using [Oanda](https://www.oanda.com>) as a broker), with minimal code adjustment you can use your own data sources/DataFrames
 
 ##### Data retrieval and preparation
 
