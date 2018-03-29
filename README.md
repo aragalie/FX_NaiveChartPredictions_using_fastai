@@ -23,7 +23,7 @@ Note that even though i'm using this example for FX data (using [Oanda](https://
 `GBP_USD_M1_2018-03-01_2018-03-27.h5s` can be used in the `data/ViewPorts/valid/` folder (recent prices)
 `GBP_USD_M1_2017-10-01_2018-02-28.h5s` can be used in the `data/ViewPorts/train/` folder
 ```
-- In case you want to use this data, skip sections *4-6* in the Jupyter Notebook and load the .h5s files directly in the DataFrame at section *&*
+- In case you want to use this data, skip sections *4-6* in the Jupyter Notebook and load the .h5s files directly in the DataFrame at section *7*
 
 - Data is then added to a pandas DataFrame and modeled accordingly to needs. In my case i add 2 trend indicators (Moving Average 50 and Bollinger Bands 20sma)
 
