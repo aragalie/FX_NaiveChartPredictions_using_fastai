@@ -23,6 +23,8 @@ Note that even though i'm using this example for FX data (using [Oanda](https://
 `GBP_USD_M1_2018-03-01_2018-03-27.h5s` can be used in the `data/ViewPorts/valid/` folder (recent prices)
 `GBP_USD_M1_2015-01-09_2018-02-28.h5s` can be used in the `data/ViewPorts/train/` folder
 ```
+- In case you want to use this data, skip sections 4-6 in the Jupyter Notebook and load the .h5s files directly in the DataFrame
+
 - Data is then added to a pandas DataFrame and modeled accordingly to needs. In my case i add 2 trend indicators (Moving Average 50 and Bollinger Bands 20sma)
 
 ##### Data plotting
@@ -38,9 +40,9 @@ As such, the following operations are being done using the prepared data:
 
 ##### Images export
 
-Based on a specified trading rule, each plotted chart is saved as .png in it's respective folder and with the respective label (e.g buy, sell or hold).
+Based on a specified trading rule, each plotted chart is saved as .png in it's respective folder and with the respective label (e.g buy, sell or hold). Each .png is saved as a square 250px image, which helps later on in the speed of the prediction model.
 
-One note is that i save each png as a square 250px image, which helps later on in the speed of the prediction model.
+Note: the `Oanda_Data_Retrieval.ipynb` Jupyter NB needs to be run once for the `train` data generation and another time for the `valid` folder, making sure the code is changed accordingly (in sections *7* and *12*).
 
 ### 2. fastai_Prediction
 
