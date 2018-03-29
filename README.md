@@ -21,7 +21,7 @@ Note that even though i'm using this example for FX data (using [Oanda](https://
 - You can find 2 files in the repo to help run an initial example, in case you don't have/don't want to make a Oanda account: 
 ```sh
 `GBP_USD_M1_2018-03-01_2018-03-27.h5s` can be used in the `data/ViewPorts/valid/` folder (recent prices)
-`GBP_USD_M1_2015-01-09_2018-02-28.h5s` can be used in the `data/ViewPorts/train/` folder
+`GBP_USD_M1_2017-10-01_2018-01-31.h5s` can be used in the `data/ViewPorts/train/` folder
 ```
 - In case you want to use this data, skip sections 4-6 in the Jupyter Notebook and load the .h5s files directly in the DataFrame
 
